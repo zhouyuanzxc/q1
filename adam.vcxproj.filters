@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dll">
+      <UniqueIdentifier>{60235beb-5c30-4afc-b3b0-ae6c39aaab9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="yx_groupflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cinifile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZMCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\zauxdll2.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\zmotion.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\EFileIOHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="yx_groupflow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="groupflow_generated.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cinifile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dll\zauxdll.dll">
+      <Filter>dll</Filter>
+    </None>
+    <None Include="dll\zmotion.dll">
+      <Filter>dll</Filter>
+    </None>
+    <None Include="dll\SFileLibrary.dll">
+      <Filter>dll</Filter>
+    </None>
+    <None Include="jsoncpp.dll">
+      <Filter>dll</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dll\zauxdll.lib">
+      <Filter>dll</Filter>
+    </Library>
+    <Library Include="dll\zmotion.lib">
+      <Filter>dll</Filter>
+    </Library>
+    <Library Include="dll\SFileLibrary.lib">
+      <Filter>dll</Filter>
+    </Library>
+    <Library Include="jsoncpp.lib">
+      <Filter>dll</Filter>
+    </Library>
+    <Library Include="dll\flatbuffers.lib">
+      <Filter>dll</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
